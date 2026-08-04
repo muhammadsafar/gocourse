@@ -1,0 +1,4 @@
+DEBUG: 2025/12/02 21:35:58 93_logging.go:38: This is a debug message
+WARN: 2025/12/02 21:35:58 This is a warning message written to file
+INFO: 2025/12/02 21:35:58 93_logging.go:40: This is an info message written to file
+ERROR: 2025/12/02 21:35:58 93_logging.go:41: This is an error message written to file

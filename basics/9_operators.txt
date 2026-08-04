@@ -1,0 +1,29 @@
+package main
+
+func main() {
+
+	//LOGICAL OPERATORS
+
+	//! NOT
+	//|| OR
+	//&& AND
+
+	//BITWISE
+
+	//& AND
+	//| OR
+	//^ XOR
+	//&^ AND NOT
+	//<< left shift
+	//>> right shift
+
+	//comparation
+
+	//== equal
+	// != not equal
+	// < less than
+	// <= less than or equal
+	// > grathr than
+	// >= grather than or equal
+
+}

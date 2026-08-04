@@ -9,8 +9,7 @@ import (
 
 //Goroutines do not stop the program flow and are non blocking
 
-func main() {
-
+func main1() {
 	// var wg sync.WaitGroup
 
 	var err error
@@ -42,9 +41,9 @@ func main() {
 }
 
 func sayHello() {
+	// defer wg.Done()
 	time.Sleep(1 * time.Second)
 	println("Hello from goroutine")
-	// defer wg.Done()
 }
 
 func printNumbers() {

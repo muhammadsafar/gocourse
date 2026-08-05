@@ -6,7 +6,7 @@ import (
 	"net/http"
 )
 
-func main() {
+func main1() {
 
 	//localhost:3000
 	http.HandleFunc("/", func(res http.ResponseWriter, req *http.Request) {

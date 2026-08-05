@@ -19,7 +19,7 @@ import (
 
 //buffered channel adalah channel yang memiliki kapasitas tertentu, sehingga dapat menampung beberapa value sebelum harus menunggu receiver untuk menerima value tersebut. Jika kapasitas channel penuh, maka pengiriman value ke channel akan diblokir sampai ada receiver yang menerima value dari channel.
 
-func main() {
+func mainbuffered() {
 	// =========BLOCKING on send only IF THE BUFFER IS FULL=========
 	// make(chan Type, capacity) // buffered channel dengan kapasitas tertentu
 	ch := make(chan int, 2) // buffered channel dengan kapasitas 2

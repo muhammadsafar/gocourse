@@ -5,7 +5,7 @@ import "fmt"
 // chan<-  artinya cuma bisa send only
 // <-chan receive only
 
-func main() {
+func mainchannel_directtion() {
 
 	ch := make(chan int)
 	producer(ch)

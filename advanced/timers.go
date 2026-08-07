@@ -34,7 +34,7 @@ import (
 // 2. =====TIMEOUT
 func longRunningOperation() {
 	i := 0
-	for {
+	for { //infinite until timeout
 		i++
 		fmt.Println(i)
 		time.Sleep(time.Second)

@@ -7,7 +7,7 @@ import (
 
 //TICKER RESET
 
-func main() {
+func mainticker() {
 
 	ticker := time.NewTicker(1 * time.Second)
 	defer ticker.Stop()

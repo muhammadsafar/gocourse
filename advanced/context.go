@@ -22,7 +22,7 @@ func doWork2(ctx context.Context) {
 	}
 }
 
-func main() {
+func mainctx() {
 	rootCtx := context.Background()
 	// ctx, cancel := context.WithTimeout(rootCtx, 2*time.Second)
 	// defer cancel()

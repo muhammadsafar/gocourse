@@ -19,7 +19,7 @@ func (w Worker) PerformTask(wg *sync.WaitGroup) {
 	fmt.Printf("Worker ID %d finished %s\n", w.ID, w.Task)
 }
 
-func main() {
+func mainwg() {
 
 	var wg sync.WaitGroup
 

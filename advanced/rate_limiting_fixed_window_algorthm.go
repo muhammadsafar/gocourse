@@ -38,7 +38,7 @@ func (rl *RateLimiter) Allow() bool {
 	return false
 }
 
-func main() {
+func mainfixed_window() {
 
 	var wg sync.WaitGroup
 	rateLimiter := NewRateLimiter(5, 2*time.Second)

@@ -63,7 +63,7 @@ func (by By) Sort(people []Person) {
 // 	a[i], a[j] = a[j], a[i]
 // }
 
-func main() {
+func mainsort() {
 	numbers := []int{5, 3, 4, 1, 2}
 	sort.Ints(numbers)
 	fmt.Println("Sorted numbers : ", numbers)
@@ -111,3 +111,14 @@ func main() {
 	})
 	fmt.Println("Sorted by last char >>", stringSlice)
 }
+
+//output
+/**
+Sorted numbers :  [1 2 3 4 5]
+people :  [{Musa 30} {Aming 21} {Tahang 22} {Aco 34} {Funding 35}]
+Sorted people by age :  [{Aming 21} {Tahang 22} {Musa 30} {Aco 34} {Funding 35}]
+Sorted people by age desc :  [{Funding 35} {Aco 34} {Musa 30} {Tahang 22} {Aming 21}]
+Sorted people by name :  [{Aco 34} {Aming 21} {Funding 35} {Musa 30} {Tahang 22}]
+Sorted people by length name :  [{Aco 34} {Musa 30} {Aming 21} {Tahang 22} {Funding 35}]
+Sorted by last char >> [banana apple watermelon cherry]
+*/
